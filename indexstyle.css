@@ -1,0 +1,69 @@
+/*
+    Document   : Index Style.css
+    Created on : 2015-09-01 08:08 PM
+    Author     : cschmidt
+    Description:
+    Purpose of the stylesheet follows.
+    To change this template use Tools | Templates.
+*/
+    body{
+            background:black;
+    }
+
+    #welcome{
+        z-index:2;
+        color:#00ff08;
+        position:absolute;
+            left: 550px;
+            top: 130px;
+            font-size:5em;
+        font-family:monospace;
+    }
+
+    #background-pic {
+            position: absolute;
+            z-index: 1;
+    }
+    #intro{
+        position: absolute;
+        z-index:2;
+        color:#00ff08;
+            top: 175px;
+            left: 250px;
+        font-family:monospace;
+    }
+    #purpose{
+        position: absolute;
+        z-index:2;
+        color:#00ff08;
+        top:175px;
+        left:830px;
+        font-family:monospace;
+    }
+    #htmlaboutme{
+        column-rule: #00ff08;
+        z-index:2;
+        position:absolute;
+        top:250px;
+        font-size:1.5em;
+        left: 620px;    
+    }
+  #htmlcss{
+        column-rule: #00ff08;
+        z-index:2;
+        position:absolute;
+        top:300px;
+        font-size:1.5em;
+        left: 620px;
+    }
+  #computerhardware{
+        column-rule: #00ff08;
+        z-index:2;
+        position:absolute;
+        top:350px;
+        font-size:1.5em;
+        left: 572px;
+    } 
+  #aboutmeheader{
+      
+  }
